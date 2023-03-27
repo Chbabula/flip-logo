@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #0014FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container{
+    height: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.flip-logo{
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flip-logo img{
+    margin-right: 100px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.flip-search-items{
+    display: flex;
+    gap: 16rem;
+    align-items: center;
+    border-radius: 4px;
+    background-color: aliceblue;
+    padding: 8px 10px;
+}
+
+.filp-search svg{
+    width: 24px;
+    height: 24px;
+}
+.flip-search-items input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.flip-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.flip-menu ul li{
+    font-size: 16px;
+    font-weight: 600px;
+}
+.flip-carts-items{
+    display: flex;
+}
+.flip-carts{
+    display: flex;
+    height: 100%;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.flip-carts svg{
+    color: aliceblue;
+    margin-left: 50px;
+    height: 50px;
+    width: 35px;
+}
+.flip-carts-items p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+
+}
+.hkh{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #ECF9FF;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+}
+.hkh img{
+    height: 60px;
+    width: 61px;
+
+}
+.hkh{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.hkh p{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.grocery-edit img{
+    margin-left: 22px;
+    height: 60px;
+    width: 65px;
+}
